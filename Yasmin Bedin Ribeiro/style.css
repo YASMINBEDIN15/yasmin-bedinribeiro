@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 40px;
+}
+
+.capa h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #90ee90;
+  text-shadow: 2px 2px #000;
+}
+
+.capa p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.capa img {
+  max-width: 100%;
+  height: auto;
+  border: 4px solid #333;
+  box-shadow: 0 0 15px #000;
+  border-radius: 8px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #228B22;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+
+
+}/* Estilo base */
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #1a1a1a;
+  border: 3px solid #00ff00;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #003300;
+}
+
+h1 {
+  font-size: 36px;
+  color: #00ff00;
+  text-shadow: 1px 1px #000;
+}
+
+p {
+  font-size: 18px;
+  color: #cccccc;
+}
+
+/* Opções interativas */
+.choices a, .botao, a {
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  text-decoration: none;
+  border: 2px solid #00ff00;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+/* Efeito HOVER VERDE */
+.choices a:hover, .botao:hover, a:hover {
+  background-color: #00ff00;
+  color: #000000;
+  box-shadow: 0 0 8px #00ff00, 0 0 15px #00ff00;
+}
+
+
+/* Hover: inverte cores */
+.choices a:hover, .botao:hover, a:hover {
+  background-color: #23d823;
+  color: #111;
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'VT323', monospace;
+  background: linear-gradient(160deg, #020202 0%, #003300 50%, #001100 100%);
+  color: #e0ffe0;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 4px double #00ff88;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 0 25px #003300, inset 0 0 10px #00ff88;
+}
+
+h1 {
+  font-size: 48px;
+  color: #00ff88;
+  text-shadow: 2px 2px #001100;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  color: #caffc5;
+  line-height: 1.6;
+}
+
+/* Botões mágicos */
+.choices a, .botao, a {
+  display: inline-block;
+  margin: 18px;
+  padding: 14px 28px;
+  background-color: #001a00;
+  color: #aaffaa;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 16px;
+  text-decoration: none;
+  border: 2px solid #00ff88;
+  border-radius: 10px;
+  box-shadow: 0 0 12px #003300;
+  transition: all 0.3s ease;
+}
+
+/* Hover mágico */
+.choices a:hover, .botao:hover, a:hover {
+  background-color: #00ff88;
+  color: #000000;
+  box-shadow: 0 0 25px #00ff88, 0 0 40px #00ffaa;
+  transform: scale(1.05);
+}
+
+}
+
+
+
+
+.botao:hover {
+  background-color: #2e8b57;
+}
